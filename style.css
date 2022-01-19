@@ -46,6 +46,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20px;
 }
 .addBtn{
     background: crimson;
@@ -62,6 +63,7 @@ h1{
     color: #070707;
     background-color: #C0C0C0;
     border: none;
+    padding-left: 20px;
 }
 .input-div{
     width: 50%;
