@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gothic A1', sans-serif;
+    background: #070707;
+}
+h1{
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 4rem;
+    color: ivory;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.inner{
+    width: 50%;
+}
+.innderDiv{
+    width: 100%;
+}
+.ulCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list{
+    min-width: 100%;
+    height: auto;
+    padding: 0px;
+    list-style: none;
+}
+.list-item{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #070707;
+    background: ivory;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addBtn{
+    background: crimson;
+    color: #070707;
+    height: 40px;
+    width: 19%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+input{
+    height: 40px;
+    width: 80%;
+    color: #070707;
+    background: ivory;
+    border: none;
+}
+.input-div{
+    width: 50%;
+}
+.delBtn{
+    background: crimson;
+    color: #070707;
+    border: none;
+    height: 40px;
+    width: 20%;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+.error{
+    color: ivory;
+}
