@@ -1,7 +1,6 @@
 const form = document.querySelector('.container');
 const ul = document.getElementById('list');
 const val = document.querySelector('.input');
-const error = document.querySelector('.error');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -24,5 +23,7 @@ form.addEventListener('submit', e => {
         li.remove();
         delBtn.remove();
     });
+    //Append to list
+    ul.appendChild(div);
 });
 
