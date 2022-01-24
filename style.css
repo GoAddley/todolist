@@ -22,7 +22,7 @@ h1{
     width: 100%;
 }
 .inner{
-    width: 50%;
+    width: 50vw;
 }
 .innderDiv{
     width: 100%;
@@ -59,7 +59,7 @@ h1{
 }
 .input{
     height: 40px;
-    width: 80%;
+    width: 79%;
     color: #070707;
     background-color: #C0C0C0;
     border: none;
@@ -81,8 +81,13 @@ h1{
 .error{
     color: ivory;
 }
+@media only screen and (max-width: 786px) {
+    .inner {
+        width: 80vw;
+    }
+}
 @media only screen and (max-width: 500px) {
     .inner {
-        width: 95vw;
+        width: 100vw;
     }
-  }
+}
